@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    
+  }
+  
+body{
+    animation: gradient 10s ease infinite;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab) no-repeat;
+    background-size: 300% 300%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    font-family: sans-serif;
+
+}
+.form{
+    font-family:monospace;
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 15px;
+    padding: 80px;
+    color: #FFF;
+}
+h1{
+    font-size: 50px;
+    padding-left: 50px;
+}
+input[type='button']{
+    margin-left: 0px;
+    padding: 15px 57px;
+    font-size: 16px;
+    text-decoration: none;
+    border: none;
+    color: #FFF;
+    font-weight:700;
+    background-color: rgb(23, 255, 62);
+
+}
+
+@keyframes gradient{
+0%{
+    background-position: 0 50%;
+}
+50%{
+    background-position: 100% 50%;
+}
+100%{
+  background-position: 0 50%;
+    }
+}
